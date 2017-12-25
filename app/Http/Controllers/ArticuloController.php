@@ -147,5 +147,5 @@ class ArticuloController extends Controller
          $pdf::Output();
          exit;
     }
-
+    
 }

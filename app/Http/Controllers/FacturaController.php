@@ -21,7 +21,7 @@ class FacturaController extends Controller
 
     public function codigo() 
     {
-    
+        
     $codigo = new ControlCode();
  
 	$authorizationNumber = '7904006306693';    //Nro Autorizacion

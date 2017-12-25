@@ -300,6 +300,14 @@
     <script src="{{asset('js/bootstrap-select.min.js')}}"></script>
     <!-- AdminLTE App -->
     <script src="{{asset('js/app.min.js')}}"></script>
-    
+    <script>
+      var notificar = function(){
+        alert('notificando');
+        var timer = setTimeout('notificar()',1000);
+      }
+      $(document).ready(function() {
+        console.log( "ready!" );
+      });
+    </script>
   </body>
 </html>

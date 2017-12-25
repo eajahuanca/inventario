@@ -131,7 +131,7 @@ foreach ($totales as $total)
 @push ('scripts')
 <script src="{{asset('js/Chart.js')}}"></script>
 
-    <script>
+    <script type="text/javascript">
       $(function () {
         /* ChartJS
          * -------
@@ -170,7 +170,7 @@ foreach ($totales as $total)
               pointHighlightFill: "#fff",
               pointHighlightStroke: "rgba(60,141,188,1)",
               data: [<?php foreach ($comprasmes as $reg)
-                {echo ''. $reg->totalmes.',';} ?>]
+                {echo $reg->totalmes.',';} ?>]
             }
           ]
         };
@@ -404,5 +404,6 @@ foreach ($totales as $total)
       $('#liEscritorio').addClass("active");
 
     </script>
+    
 @endpush
 @endsection

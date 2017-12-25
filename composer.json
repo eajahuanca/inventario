@@ -10,7 +10,8 @@
         "laravelcollective/html": "5.2.*",
         "anouar/fpdf": "^1.0",   
         "simplesoftwareio/simple-qrcode": "~1",
-        "laracasts/flash": "^3.0"
+        "laracasts/flash": "^3.0",
+        "whossun/laravel-toastr": "^1.0"
      
     },
     "require-dev": {
